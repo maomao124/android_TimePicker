@@ -4,25 +4,26 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity4"
+        tools:context=".MainActivity5"
         android:orientation="vertical"
         android:gravity="center">
 
     <TimePicker
-            android:id="@+id/TimePicker3"
+            android:id="@+id/TimePicker4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:timePickerMode="spinner" />
 
     <Button
-            android:id="@+id/button_TimePicker3"
+            android:id="@+id/button_TimePicker4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="确定"
             android:layout_margin="10dp" />
 
     <TextView
-            android:id="@+id/result3"
+            android:id="@+id/result4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp" />
